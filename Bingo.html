@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="./Bingo.css">
+  <title>BINGO</title>
+</head>
+<body>
+  <!--Começo do body-->
+  <h1>BINGO DOS CRIA</h1>
+
+<!-- CHAMADA DO NÚMERO-->
+<button onclick="sortearN()">»» Sortear número do bingo«« </button>
+
+<hr>
+
+<h2 class="tela">Sortei um número a cima!</h2>
+
+<!-- SAINDA DO NÚMERO-->
+<h3 id="Aqui"></h3>
+<br><br>
+<!-- TABELA DO BINGO -->
+
+<table style="width: 100%">
+  <th class="tth">Tabela com os números que sairam</th>
+</table>
+
+<table class="tOfi" style="width:100%">
+  <!-- Ajeitando a tebela pra poder os numeros ficarem de um a dez de uma forma mais umiforme -->
+    <thead>
+ <tr class="bing">
+  <th class="bin"> J</th>
+  <th class="bin">O</th>
+  <th class="bin">G</th>
+  <th class="bin">O | </th>
+  <th class="bin">D</th>
+  <th class="bin">E</th>
+  <th class="bin"> | V</th>
+  <th class="bin">E</th>
+  <th class="bin">I</th>
+  <th class="bin">O </th>
+ </tr>
+ 
+ <!-- TENHO QUE FAZER ISSO TUDO JA NO HTML-->
+   </thead>
+  <tbody>
+    <tr id="tabela1"></tr>
+    <tr id="tabela2"></tr>
+    <tr id="tabela3"></tr>
+    <tr id="tabela4"></tr>
+    <tr id="tabela5"></tr>
+    <tr id="tabela6"></tr>
+    <tr id="tabela7"></tr>
+    <tr id="tabela8"></tr>
+    <tr id="tabela9"></tr>
+    <tr id="tabela10"></tr>
+  </tbody>
+  
+</table>
+
+<!-- FIm fo body e chamada do JS-->
+<script src="./Bingo.js"></script>
+</body>
+</html>

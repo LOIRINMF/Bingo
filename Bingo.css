@@ -1,0 +1,196 @@
+body {
+  background: linear-gradient(200.50deg, #0aa6d6 28.6%, blue);
+  
+}
+
+h1 {
+  background: #08d0f4e7;
+  border: 2px solid #eb3b00;
+  border-radius: 10%;
+ box-shadow: 2px 5px 2px #7900eb;
+ 
+  color: #a90c87;
+ 
+  text-align: center;
+  font-size: 26px;
+}
+
+h2 {
+  background: #f00;
+  border: 2px solid #f50;
+  border-radius: 10%;
+  box-shadow: 2px 5px 2px #a90c87;
+  
+  color: black;
+  
+  text-align: center;
+}
+
+h3 {
+  background: #0338b8e7;
+  border: 2px solid black;
+  border-radius: 35px;
+  box-shadow:2px 4px 2px  #f39505;
+  
+  color: lime;
+  
+  text-align: center;
+}
+
+hr {
+  background-color: green
+  color: #0f0;
+}
+
+button{
+  background-color: #000;
+  color: #00ffff;
+  
+  border: 2px solid #3efaf8f6;
+  box-shadow: 3px 7px 3px red;
+ 
+ font-size: 20px;
+ /* PERFEITAMENTE CENTRALIZADO CHUPA CSS*/
+  margin-left: 15%;
+}
+
+.tOfi {
+  border-collapse: collapse;
+  border: 2px solid #de2277;
+}
+
+
+/**/
+
+tr{
+  background-color: #8d1aff;
+  border: 2px solid #fe1e72;
+  
+}
+
+td {
+  color: #04ecff;
+  text-align: center;
+}
+
+td:nth-child(even/*odd*/){
+  background: #6116e9;
+  color: yellow;
+}
+/*Linha H*/
+.tth {
+  background-color: #3f0092;
+  color: red;
+}
+
+/*TR do bingo*/
+.bing {
+  background-color: #3f0093;
+  border: 2px solid #2ff1afe6;
+}
+/*TH do bingo*/
+.bin {
+  color: #04ecffa5;
+}
+
+/*@keyfreme{
+  fazer um animeção pro local inde sai o numero do sorteio. pra poder fica mais bonito.b
+  
+  
+  Achei um negocio aqui
+  
+  @keyframes ldio-ddhx1hmu93w {
+  0% { transform: rotate(0) }
+  100% { transform: rotate(360deg) }
+}
+.ldio-ddhx1hmu93w div { box-sizing: border-box!important }
+.ldio-ddhx1hmu93w > div {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  top: 20px;
+  left: 20px;
+  border-radius: 50%;
+  border: 20px solid #000;
+  border-color: #87ceeb transparent #87ceeb transparent;
+  animation: ldio-ddhx1hmu93w 4s linear infinite;
+}
+
+.ldio-ddhx1hmu93w > div:nth-child(2), .ldio-ddhx1hmu93w > div:nth-child(4) {
+  width: 116px;
+  height: 116px;
+  top: 42px;
+  left: 42px;
+  animation: ldio-ddhx1hmu93w 4s linear infinite reverse;
+}
+.ldio-ddhx1hmu93w > div:nth-child(2) {
+  border-color: transparent #4682b4 transparent #4682b4
+}
+.ldio-ddhx1hmu93w > div:nth-child(3) { border-color: transparent }
+.ldio-ddhx1hmu93w > div:nth-child(3) div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+.ldio-ddhx1hmu93w > div:nth-child(3) div:before, .ldio-ddhx1hmu93w > div:nth-child(3) div:after { 
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -20px;
+  left: 50px;
+  background: #87ceeb;
+  border-radius: 50%;
+  box-shadow: 0 140px 0 0 #87ceeb;
+}
+.ldio-ddhx1hmu93w > div:nth-child(3) div:after {
+  left: -20px;
+  top: 50px;
+  box-shadow: 140px 0 0 0 #87ceeb;
+}
+
+.ldio-ddhx1hmu93w > div:nth-child(4) { border-color: transparent; }
+.ldio-ddhx1hmu93w > div:nth-child(4) div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+.ldio-ddhx1hmu93w > div:nth-child(4) div:before, .ldio-ddhx1hmu93w > div:nth-child(4) div:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -20px;
+  left: 28px;
+  background: #4682b4;
+  border-radius: 50%;
+  box-shadow: 0 96px 0 0 #4682b4;
+}
+.ldio-ddhx1hmu93w > div:nth-child(4) div:after {
+  left: -20px;
+  top: 28px;
+  box-shadow: 96px 0 0 0 #4682b4;
+}
+.loadingio-spinner-double-ring-wnjjkbzll4 {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+}
+.ldio-ddhx1hmu93w {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; 
+  
+}
+.ldio-ddhx1hmu93w div { box-sizing: content-box; }
+  
+} */
