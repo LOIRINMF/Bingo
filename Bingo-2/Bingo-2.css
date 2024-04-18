@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(230.4deg, #00f 30%, #0f0);
+}
+
+.header-H {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: gray;
+
+    border: 2px solid black;
+    border-radius: 30px;
+
+    & h1 {
+        text-align: center;
+        color: red;
+    }
+}
+
+
+.footer {
+    position: fixed;
+
+    bottom: 0;
+    left: 0;
+    background-color: black;
+}
