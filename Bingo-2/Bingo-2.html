@@ -12,19 +12,29 @@
 
 <body>
     <header>
+
         <section class="header-H">
 
-            <h1> Bingo-OF</h1>
+            <h1> Bingo-OF </h1>
         </section>
-
     </header>
-    <main>
 
+    <div class="Sorteio">
+        <div class="botao">
+            
+            <button onclick="Sortear()"> Sortear um número </button>
+        </div>
+
+        
+    </div>
+
+    <main>
+        
         <section class="tabela-bingo">
             <table>
 
                 <caption> Bingo dos cria </caption>
-                
+
                 <thead>
 
                     <tr>
@@ -32,8 +42,8 @@
                     </tr>
 
                 </thead>
-                <tbody>
-
+                <tbody id="body-tabela">
+        <!-- 9 TR-->
                     <tr>
                         <td>1</td>
                         <td>2</td>
@@ -45,6 +55,7 @@
                         <td>8</td>
                         <td>9</td>
                         <td>10</td>
+
                     </tr>
 
                 </tbody>
@@ -54,9 +65,8 @@
 
     <footer>
         <section class="footer">
-            <p>Bingo beta-1.0.0.2</p>
+            <p> beta-1.0.0.2 </p>
         </section>
     </footer>
-
 </body>
 </html>
