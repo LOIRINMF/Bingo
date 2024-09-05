@@ -1,16 +1,16 @@
 body {
   background: linear-gradient(200.50deg, #0aa6d6 28.6%, blue);
-  
+
 }
 
 h1 {
   background: #08d0f4e7;
   border: 2px solid #eb3b00;
   border-radius: 10%;
- box-shadow: 2px 5px 2px #7900eb;
- 
+  box-shadow: 2px 5px 2px #7900eb;
+
   color: #a90c87;
- 
+
   text-align: center;
   font-size: 26px;
 }
@@ -20,9 +20,9 @@ h2 {
   border: 2px solid #f50;
   border-radius: 10%;
   box-shadow: 2px 5px 2px #a90c87;
-  
+
   color: black;
-  
+
   text-align: center;
 }
 
@@ -30,10 +30,10 @@ h3 {
   background: #0338b8e7;
   border: 2px solid black;
   border-radius: 35px;
-  box-shadow:2px 4px 2px  #f39505;
-  
+  box-shadow: 2px 4px 2px #f39505;
+
   color: lime;
-  
+
   text-align: center;
 }
 
@@ -42,15 +42,15 @@ hr {
   color: #0f0;
 }
 
-button{
+button {
   background-color: #000;
   color: #00ffff;
-  
+
   border: 2px solid #3efaf8f6;
   box-shadow: 3px 7px 3px red;
- 
- font-size: 20px;
- /* PERFEITAMENTE CENTRALIZADO CHUPA CSS*/
+
+  font-size: 20px;
+  /* PERFEITAMENTE CENTRALIZADO CHUPA CSS*/
   margin-left: 15%;
 }
 
@@ -62,10 +62,10 @@ button{
 
 /**/
 
-tr{
+tr {
   background-color: #8d1aff;
   border: 2px solid #fe1e72;
-  
+
 }
 
 td {
@@ -73,10 +73,14 @@ td {
   text-align: center;
 }
 
-td:nth-child(even/*odd*/){
+td:nth-child(even
+
+  /*odd*/
+) {
   background: #6116e9;
   color: yellow;
 }
+
 /*Linha H*/
 .tth {
   background-color: #3f0092;
@@ -88,6 +92,7 @@ td:nth-child(even/*odd*/){
   background-color: #3f0093;
   border: 2px solid #2ff1afe6;
 }
+
 /*TH do bingo*/
 .bin {
   color: #04ecffa5;
